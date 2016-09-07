@@ -1,0 +1,32 @@
+{
+  "name": "register-jsx",
+  "version": "1.0.0",
+  "description": "babel-less require hook for jsx transpilation",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "jsx",
+    "require",
+    "extension",
+    "transpile"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gerhardberger/register-jsx.git"
+  },
+  "author": "@gellerthegyi",
+  "license": "MIT",
+  "dependencies": {
+    "jsx-transform": "^2.3.0",
+    "mime-types": "^2.1.11"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "debug": "^2.2.0",
+    "eslint": "^3.4.0",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
