@@ -45,6 +45,8 @@ it uses [**jsx-transform**](https://github.com/alexmingoia/jsx-transform) for tr
 
 it returns the `jsxTransform` object.
 
+Starting from version `1.0.2`, the module ignores everything inside `node_modules` folders, and can also ignore other files if a `.jsxignore` file is present in the project's root directory. The `.jsxignore` file must have one pattern per line, and the lines are first trimmed, and then matched using `minimatch`.
+
 ## test
 
 ```
