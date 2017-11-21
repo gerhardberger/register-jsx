@@ -1,6 +1,6 @@
 {
   "name": "register-jsx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "babel-less require hook for jsx transpilation",
   "main": "index.js",
   "scripts": {
@@ -19,14 +19,17 @@
   "author": "@gellerthegyi",
   "license": "MIT",
   "dependencies": {
+    "find-root": "^1.1.0",
     "jsx-transform": "^2.3.0",
-    "mime-types": "^2.1.11"
+    "mime-types": "^2.1.11",
+    "minimatch": "^3.0.4"
   },
   "devDependencies": {
     "ava": "^0.16.0",
     "debug": "^2.2.0",
     "eslint": "^3.4.0",
     "eslint-config-standard": "^5.3.5",
-    "eslint-plugin-standard": "^2.0.0"
+    "eslint-plugin-standard": "^2.0.0",
+    "eslint-plugin-promise": "^2.0.0"
   }
 }
