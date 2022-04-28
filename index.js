@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 
-const jsx = require('jsx-transform')
+const jsx = require('jsx-transform-modern')
 const mime = require('mime-types')
 const findRoot = require('find-root')
 const minimatch = require('minimatch')
